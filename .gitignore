@@ -1,3 +1,1 @@
 .env
-app/node_modules
-data/db/*
