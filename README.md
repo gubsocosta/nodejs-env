@@ -24,5 +24,3 @@ By default, the services are running in these configurations:
 | nodeJS         |3000  |
 | mongodb        |27017 |
 | mongo-express  |8081  |
-
-The data
