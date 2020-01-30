@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 // Routes
 app.get('/', (req, res) => res.send("<h2>API Node</h2>"));
 
-// DB Test Connect
-mongoose.connect('mongodb://mongo:27017/dbtest', {
+//DB Test Connect
+mongoose.connect('mongodb://test:secret@mongo:27017/test', {
     useNewUrlParser: true,
 })
 .then(result => console.log('MongoDB connected'))
